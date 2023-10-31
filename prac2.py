@@ -52,11 +52,11 @@ def main():
     goal_state = [[1, 2, 3],
                   [4, 5, 6],
                   [7, 8, 0]]
-    initial_state = [[2, 5, 0],
-                     [4, 1, 6],
+    initial_state = [[0, 2, 3],
+                     [4, 5, 6],
                      [7, 1, 8]]
     path = bfs(initial_state, goal_state)
-    print(path)
+    print("MOVES: ", path)
 
 
 if __name__ == "__main__":
